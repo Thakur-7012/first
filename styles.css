@@ -13,8 +13,8 @@ body{
 html{
     scroll-behavior: smooth;
 }
+/* navbar */
 .nav{
-    
     height: 12vh;
     width: 100%;
     display: flex;
@@ -39,6 +39,7 @@ html{
 .nav ul li a:hover{
     opacity: 0.8;
 }
+/* Home  */
 #Home{
     width: 100%;
     height: 100vh;
@@ -241,6 +242,7 @@ html{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    overflow: hidden;
 }
 .hobby-box{
     display: flex;
@@ -248,7 +250,7 @@ html{
     justify-content: space-evenly;
     border: 1px solid rgb(207, 61, 40);
     padding: 2px;
-    width: 40%;
+    width: 45%;
     margin-bottom: 2vh;
     transition: all 0.5s;
 }
@@ -278,42 +280,6 @@ html{
     color: rgb(194, 194, 194);
     font-size: 0.9rem;
 }
-/* #hobbies{
-    padding: 40px;
-    width: 100%;
-    background-color: #111;
-}
-.hobby-boxes{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-.hobby-box{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 5px;
-    margin-bottom: 2vh;
-    border: 2px solid rgb(207, 61, 40);
-    transition: all 500ms;
-}
-.hobby-box:hover{
-    color: black;
-    background-color: rgba(207, 61, 48);
-}
-.hobby-image{
-    
-    width: 40%;
-    height: 200px;
-}
-.img{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
 
 /* Projects */
 #projects{
@@ -337,6 +303,7 @@ html{
 .project-img{
     width: 100%;
     position: relative;
+    z-index: 8;
     transition: 0.5s all ease-in-out;
 }
 .project-img img{
